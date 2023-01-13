@@ -17,6 +17,7 @@ let todosCount = todoList.length;
 
 saveTodoButton.onclick = function() {
   localStorage.setItem("todoList", JSON.stringify(todoList));
+  alert("Saved");
 };
 
 function onAddTodo() {
